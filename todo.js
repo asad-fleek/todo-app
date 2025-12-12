@@ -9,9 +9,9 @@ addBtn.addEventListener("click", () => {
 
     addTask(text);
     saveTasks();
-    taskInput.value = "";`
+    taskInput.value = "";
 });
-`
+
 
 function addTask(text, completed = false) {
     const li = document.createElement("li");
